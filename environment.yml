@@ -1,0 +1,10 @@
+name: topicbank77
+dependencies:
+  - python=3.11
+  - numpy=1.23.1
+  - conda-forge::scikit-learn=1.3.0
+  - pytorch::pytorch=2.0.1
+  - transformers==4.10.2
+  - datasets==1.11.0
+  - gradio==1.7.7
+
