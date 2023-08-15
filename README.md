@@ -21,11 +21,11 @@ The `src` folder contains the source code.
     ├── ...
     ├── environment.yml  : Create conda env with modules.
     ├── requirements.txt : Install modules using pip after env creation.
+    ├── model            : Contains the saved model and tokenizers.
     ├── src                    
     │   ├── app.py       : The main script to run the Gradio UI.
     |   ├── main.py      : Train and save model and tokens.
     |   ├── utils        : Contains utility files.
-    |   ├── model        : Contains the saved model.
     └── ...
 ```
 
