@@ -12,7 +12,7 @@ I have used the [Banking77](https://huggingface.co/datasets/banking77) dataset w
 | 10003                      | 3080                      | 77                 |
 
 ## Results
-Test Accuracy = **89.01%**
+Test Accuracy = **89.01%** for batch size **8** trained for **2** epochs.
 
 ## Directory Structure
 The `src` folder contains the source code.
