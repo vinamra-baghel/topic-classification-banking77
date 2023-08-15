@@ -1,10 +1,9 @@
 # Topic Classification using DistilBERT for Banking77
 
 ## Introduction
-This repository contains the implementation of **Topic Classification using DistilBERT for Banking77**, wherein we implement a [DistilBERT](https://huggingface.co/docs/transformers/model_doc/distilbert).
+This repository contains the implementation of **Topic Classification using DistilBERT for Banking77**, wherein we fine-tune [DistilBERT](https://huggingface.co/docs/transformers/model_doc/distilbert) for the task of topic identification for a given bank statement. 
 
-## Data Generation
-I have used the [Banking77](https://huggingface.co/datasets/banking77) dataset with 77 topic classes. Following are certain data statistics:
+We have used the [Banking77](https://huggingface.co/datasets/banking77) dataset containing 77 topic classes. Following are a few important data statistics:
 
 ### Dataset Statistics
 | **No. of Train Instances** | **No. of Test Instances** | **No. of Classes** |
