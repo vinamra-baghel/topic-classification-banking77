@@ -75,7 +75,7 @@ conda env create -f environment.yml
 ```
 
 ## How to run?
-Download the model files and save in the `model` directory from [here](https://drive.google.com/drive/folders/1L5afuFKXpSKqLACwHNIP-BXaOeARWLC9?usp=sharing). Then, in the `src` directory, simply run `app.py` to run the Gradio UI. 
+Download the model files and save them in the `model` directory from [here](https://drive.google.com/drive/folders/1L5afuFKXpSKqLACwHNIP-BXaOeARWLC9?usp=sharing). Then, in the `src` directory, simply run `app.py` to run the Gradio UI. 
 
 To train and save the model, run `main.py`.
 

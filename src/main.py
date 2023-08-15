@@ -24,8 +24,8 @@ trainingTime = end - start
 print(f"Training took {trainingTime:.2f} seconds")
 
 # Save the fine-tuned model
-model.save_pretrained("model")
-tokenizer.save_pretrained("model")
+model.save_pretrained("./../model")
+tokenizer.save_pretrained("./../model")
 
 # Evaluate the model
 eval = DistilBERTTest(model)

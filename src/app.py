@@ -5,8 +5,8 @@ import torch
 from utils.mapping import Banking77Map
 
 # Load the fine-tuned model
-model = DistilBertForSequenceClassification.from_pretrained('model')
-tokenizer = DistilBertTokenizer.from_pretrained('model')
+model = DistilBertForSequenceClassification.from_pretrained('./../model')
+tokenizer = DistilBertTokenizer.from_pretrained('./../model')
 
 # Load the Banking77 mapping
 mapping = Banking77Map.mappingDict()
