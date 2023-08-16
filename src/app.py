@@ -9,7 +9,8 @@ model = DistilBertForSequenceClassification.from_pretrained('./../model')
 tokenizer = DistilBertTokenizer.from_pretrained('./../model')
 
 # Load the Banking77 mapping
-mapping = Banking77Map.mappingDict()
+bankMap = Banking77Map()
+mapping = bankMap.mappingDict()
 
 # Define a function to make predictions
 def predict_Topic(text):
