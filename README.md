@@ -13,6 +13,9 @@ We have used the [Banking77](https://huggingface.co/datasets/banking77) dataset 
 ## Results
 Test Accuracy = **91.05%** for batch size **8** trained for **3** epochs.
 
+## Example Screenshot
+![Gradio App Screenshot](images/app_sc.png)
+
 ## Directory Structure
 The `src` folder contains the source code.
 ```
